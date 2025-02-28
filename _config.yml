@@ -1,12 +1,26 @@
+title: VisHub Lab Edinburgh
+description: >-
+  Interdisciplinary research lab in data visualization and HCI at the University of Edinburgh.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://vishub.net" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: vishublab
+github_username: visualinteractivedata
 theme: jekyll-theme-minimal
-logo: "figures/logo-feb2022.png"
+logo: "assets/logos/vishub-logo.svg"
 repository: visualinteractivedata/visualinteractivedata.github.io
 github: [metadata]
-gems: ["jemoji"]
 relative_links:
   enabled: true
   collections: true
-plugins: [jekyll-seo-tag]
+page_excerpts: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+  - jekyll-resize
 collections:
   projects:
     output: true
@@ -18,12 +32,13 @@ collections:
       - covid19_vis.md
       - data_comics.md
       - geographic.md
-      - immmersive_analytics.md
+      - immersive_analytics.md
       - peace_analytics.md
       - clinical_guidelines.md
   vishubprojects:
     output: true
     order:
+      - mailinglist.md
       - professionals_course.md
       - datafairs.md
       - datavismeetup.md

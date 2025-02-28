@@ -4,6 +4,8 @@ title: People
 ---
 
 ## Alumni (date left)
+- [Tobias Kauer](https://tobiaskauer.org/), PhD Student (graduated 2024)
+- Mashael AlKadi, PhD Student (graduated 2024)
 - Sofia Creatio (visiting PhD student, 2023)
 - Valentin Edelsbrunner (visiting MSc student, 2023)
 - [Xinhuan Shu](https://shuxinhuan.github.io), PostDoc (2023)
